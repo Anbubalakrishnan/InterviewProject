@@ -1,0 +1,38 @@
+<mvc:View controllerName="com.interview.InterviewProject.controller.Detail" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic" xmlns:form="sap.ui.layout.form">
+	<Title text="{productName}"/>
+	<FlexBox alignItems="Start" justifyContent="SpaceBetween">
+		<Panel backgroundDesign="Transparent">
+			<ObjectAttribute title="{i18n>ProductIdTitle}" text="{productId}"/>
+			<ObjectAttribute title="{i18n>PriceTitle}" text="{price}"/>
+		</Panel>
+	</FlexBox>
+	<Panel class="sapUiNoContentPadding" headerText="{i18n>DetailTabTitle}">
+		<content>
+			<form:SimpleForm minWidth="1024" maxContainerCols="2" editable="false" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3"
+				emptySpanL="4" emptySpanM="4" columnsL="1" columnsM="1">
+				<form:content>
+					<Label text="{i18n>ProductIdTitle}"/>
+					<Text text="{productId}"/>
+					<Label text="{i18n>ProductNameTitle}"/>
+					<Input id="productNameText" value="{productName}"/>
+					<Label text="{i18n>PriceTitle}"/>
+					<Input id="priceText" value="{price}"/>
+					<Label text="{i18n>DescriptionTitle}"/>
+					<Input id="descriptionText" value="{description}"/>
+					<Label text="{i18n>isFavouriteTitle}"/>
+					<Input id="isFavText" value="{isFavourite}"/>
+					<Label text="{i18n>ColourTitle}"/>
+					<Input id="colourText" value="{colour}"/>
+					<Label text="{i18n>ActiveFromTitle}"/>
+					<DateTimePicker id="activeFromText" value="{activeFrom}"/>
+					<Label text="{i18n>ActiveToTitle}"/>
+					<DateTimePicker id="activeToText" value="{activeTo}"/>
+				</form:content>
+			</form:SimpleForm>
+		</content>
+	</Panel>
+	<Button text="{i18n>Back}" press="onNavBack"/>
+	<Button text="{i18n>Submit}" press="onSubmitPress"/>
+	<Button text="{i18n>Cancel}" press="onCancelPress"/>
+</mvc:View>

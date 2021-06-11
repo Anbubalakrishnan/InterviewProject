@@ -1,0 +1,111 @@
+[{
+	"productId": 1,
+	"productName": "First Product",
+	"description": "Product 1",
+	"colour": "Red",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": true,
+	"price": 800
+
+}, {
+	"productId": 2,
+	"productName": "Second Product",
+	"description": "Product 2",
+	"colour": "Black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 40
+
+}, {
+	"productId": 3,
+	"productName": "Third Product",
+	"description": "Product 3",
+	"colour": "White",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 60
+
+}, {
+	"productId": 4,
+	"productName": "Fourth Product",
+	"description": "Product 4",
+	"colour": "Blue",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 80
+
+}, {
+	"productId": 5,
+	"productName": "Fifth Product",
+	"description": "Product 5",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 100
+
+}, {
+	"productId": 6,
+	"productName": "Sixth Product",
+	"description": "Product 6",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 120
+
+}, {
+	"productId": 7,
+	"productName": "Seventh Product",
+	"description": "Product 7",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 140
+
+}, {
+	"productId": 8,
+	"productName": "Eighth Product",
+	"description": "Product 8",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price":160
+
+}, {
+	"productId": 9,
+	"productName": "Ninth Product",
+	"description": "Product 9",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 10
+
+}, {
+	"productId": 10,
+	"productName": "Tenth Product",
+	"description": "Product 10",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 30
+
+}, {
+	"productId": 11,
+	"productName": "Eleventh Product",
+	"description": "Product 11",
+	"colour": "black",
+	"activeFrom": "/Date(1572779994000)/",
+	"activeTo": "/Date(1572779994000)/",
+	"isFavourite": false,
+	"price": 50
+
+}]

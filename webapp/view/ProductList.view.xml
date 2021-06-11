@@ -1,0 +1,40 @@
+<mvc:View controllerName="com.interview.InterviewProject.controller.ProductList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic">
+	<Table id="table" growing="true" growingScrollToLoad="true" width="auto" items="{ path: '/ProductSet'}">
+		<headerToolbar>
+			<Toolbar>
+				<Title id="tableHeader" text="{i18n>productlistTableTitle}"/>
+				<ToolbarSpacer/>
+				<SearchField id="searchField" search=".onSearch" width="auto"></SearchField>
+			</Toolbar>
+		</headerToolbar>
+		<columns>
+			<Column id="productIdColumn">
+				<Text id="productIdColumnTitle" text="{i18n>ProductIdTitle}"/>
+			</Column>
+			<Column id="productNameColumn" hAlign="End" demandPopin="true" minScreenWidth="Tablet">
+				<Text id="productNameColumnTitle" text="{i18n>ProductNameTitle}"/>
+			</Column>
+			<Column id="descColumn">
+				<Text id="descColumnTitle" text="{i18n>DescriptionTitle}"/>
+			</Column>
+			<Column id="isFavColumn" hAlign="End" demandPopin="true" minScreenWidth="Tablet">
+				<Text text="{i18n>isFavouriteTitle}"/>
+			</Column>
+			<Column id="unitPriceColumn" hAlign="End" demandPopin="true" minScreenWidth="Tablet">
+				<Text text="{i18n>PriceTitle}"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Navigation" press=".onPress">
+				<cells>
+					<ObjectIdentifier title="{productId}"/>
+					<ObjectIdentifier title="{productName}"/>
+					<ObjectIdentifier title="{description}"/>
+					<ObjectIdentifier title="{isFavourite}"/>
+					<ObjectNumber number="{price}" state="{ path: 'price', formatter: '.formatter.priceState'}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>
